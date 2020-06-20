@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>日向木材株式会社</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css"><!-- slickは自分のCSSの前がよし -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="form">
+    <!-- サイドバー固定 -->
+    <div class="side">
+        <div class="side-logo">
+            <p class="sub-title-left">採用サイト</p>
+            <p class="title">　日向木材株式会社</p>
+            <p class="sub-title-right">木材で人を豊かに</p>
+        </div>
+        <div class="entry-box">
+            <a href="form.html"><img src="img/エントリー.png" alt=""></a>
+        </div>
+        <div class="side-scroll">
+            <p>scroll　</p>
+            <img src="img/arrow-bottom.png" alt="">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- 左wrapper -->
+    <div class="wrapper-left">
+        <!-- ヘッダー -->
+        <header class="page-header wrapper">
+            <a href="index.html">
+                <h1 class="logo">
+                    <p>Hyuga mokuzai</p>
+                </h1>
+            </a>
+            <!-- グロナビ -->
+            <nav class="gnav">
+                <ul>
+                    <li><a href="jobs.html">私達の仕事</a></li>
+                    <li><a href="message.html">メッセージ</a></li>
+                    <li><a href="company-profile.html">会社概要</a></li>
+                    <li><a href="recruitment.html">募集要項</a></li>
+                    <li class="gnav-entry"><a href="form.html">エントリー</a></li>
+                </ul>
+           </nav>
+            <div class="menu">
+                <span class="border"></span>
+                <span class="border"></span>
+                <span class="border"></span>
+            </div>
+        </header>
+
+        <!-- heroスライダー -->
+        <div class="hero">
+            <div class="img-box"><img src="img/hero-03.JPG" alt=""></div>
+        </div>
+
+        <!-- エントリーフォーム -->
+        <section class="section-02 wrapper">
+            <article>
+                <h2 class="section-head">エントリーフォーム</h2>
+                <p class="head-en">Entry</p>
+            </article>
+        </section>
+
+        <div class="wrapper">
+            <div class="tel-contact">
+                <p>お電話でのお問い合わせ</p>
+                <a href="tel:0982-12-3456">0982-12-3456</a>
+            </div>
+            <div class="form-exp">
+                <p>必要情報の入力</p>
+                <img src="img/arrow-right-ash.png" alt="">
+                <p>内容のご確認</p>
+                <img src="img/arrow-right-ash.png" alt="">
+                <p>送信完了</p>
+            </div>
+            <div class="form-title">
+                <p>フォームでのお問い合わせ</p>
+            </div>
+    
+
+            <div class="container">
+                <form action="＃" method="get" class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="form-group">
+                            <label for="name">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    氏名</label>
+                            <input type="text" id="kanji" name="kanji" class="form-control" placeholder="例）山田　太郎" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    フリガナ</label>
+                            <input type="text" id="kana" name="kana" class="form-control" placeholder="例）ヤマダ　タロウ" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    性別
+                            </label>
+                            <div class="radio-box">
+                                <label class="radio-inline">
+                                    男性
+                                    <input class="blue" type="radio" name="p1" value="男性" checked required>
+                                </label>
+                                <label class="radio-inline">
+                                    女性
+                                    <input class="blue" type="radio" name="p1" value="女性" required>
+                                </label>
+                                <label class="radio-inline">
+                                    その他
+                                    <input class="blue" type="radio" name="p1" value="その他" required>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tel">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    電話番号</label>
+                            <input type="tel" id="tel" name="tel" class="form-control" placeholder="例）080-1234-5678" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    メールアドレス</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="例）example@example.jp" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    学校名</label>
+                            <input type="text" id="schoolname" name="schoolname" class="form-control" placeholder="例）〇〇高校" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text">
+                                <!-- <span class="label label-danger">必須</span> -->
+                                    学部・学科・コース</label>
+                            <input type="text" id="course" name="course" class="form-control" placeholder="例）〇〇科" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="job">
+                                <!-- <span class="label label-success">任意</span> -->
+                                    卒業年</label>
+                            <select id="graduate" name="graduate" class="form-control" required>
+                                <option value="">選択してください</option>
+                                <option value="2020年卒業予定">2020年卒業</option>
+                                <option value="2021年卒業予定">2021年卒業予定</option>
+                                <option value="2022年卒業予定">2022年卒業予定</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="entrybtn">
+                            <a href="#">エントリーする　<img src="img/arrow-right.png" alt=""></a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- フッター -->
+        <footer class="page-footer wrapper">
+            <div class="footer-box">
+                <section class="footer-contact">
+                    <p class="footer-head">日向木材株式会社</p>
+                    <div class="address-box">
+                        <address>
+                            本社工場<br>
+                            宮崎県日向市<br>
+                            TEL：0982-12-3456<br>
+                            FAX：0982-12-3456
+                        </address>
+                        <address>
+                            第二工場<br>
+                            宮崎県門川町<br>
+                            TEL：0982-01-2345<br>
+                            FAX：0982-01-2345
+                        </address>
+                    </div>
+                </section>
+                <div class="page-footer-img">
+                    <div class="footer-img-box">
+                        <img src="img/木フッター@2x.jpg" alt="">
+                    </div>
+                    <div class="footer-img-box">
+                        <img src="img/木フッター02.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <small>©︎Copyright 日向木材株式会社</small>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><!-- 一番上必須 -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.autoKana.js"></script>
+    <script src="js/main.js"></script><!-- 自分で書いたものは一番最後（うまく動かないことがある為） -->
+</body>
+</html>
